@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluaciones Programación Web con Javascript Avanzado</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Programación Web con Javascript Avanzado</h1>
+        <nav>
+            <ul>
+                <li><a href="unidad1.html" class="seleccionado">Unidad 1</a></li>
+                <li><a href="unidad2.html">Unidad 2</a></li>
+                <li><a href="unidad3.html">Unidad 3</a></li>
+                <li><a href="unidad4.html">Unidad 4</a></li>
+                <li><a href="unidad5.html">Unidad 5</a></li>
+                <li><a href="unidad6.html">Unidad 6</a></li>
+                <li><a href="unidad7.html">Unidad 7</a></li>
+                <li><a href="unidad8.html">Unidad 8</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Unidad 1</h2>
+
+        <h5>Calculadora</h5>
+
+        <div class="container">
+            <div class="col-3">
+                <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text" id="basic-addon1">Número1</span>
+                    <input type="number" class="form-control" id="numero1">
+                </div>
+        
+                  <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text" id="basic-addon1">Número2</span>
+                    <input type="number" class="form-control" id="numero2">
+                </div>
+        
+                  <div class="input-group input-group-lg mb-3">
+                    <span class="input-group-text" id="basic-addon1">Resultado</span>
+                    <input type="number" class="form-control" id="resultado" disabled readonly>
+                </div>
+            </div>
+            
+    
+            <button class="btn btn-lg btn-primary" onclick="Ejecutar(numero1, numero2, '+');" id="sumar">Sumar</button>
+    
+            <button class="btn btn-lg btn-primary" onclick="Ejecutar(numero1, numero2, '-');" id="restar">Restar</button>
+    
+            <button class="btn btn-lg btn-primary" onclick="Ejecutar(numero1, numero2, '*');" id="multiplicar">Multiplicar</button>
+    
+            <button class="btn btn-lg btn-primary" onclick="Ejecutar(numero1, numero2, '/');" id="dividir">Dividir</button>
+        </div>
+
+    </main>
+    <footer>
+        <p>© Programación Web con Javascript Avanzado - Elearning Total</p>
+    </footer>
+    <script src="js/unidad1.js"></script>
+</body>
+</html>
