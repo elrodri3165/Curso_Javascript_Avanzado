@@ -1,0 +1,35 @@
+<div class="container">
+    <h1>Datos del alumno</h1>
+
+    <div class="input-group mb-3 input-group-lg">
+        <span class="input-group-text" id="">Nombre</span>
+        <input type="text" class="form-control" id="nombre"  value="Rodrigo Nicolas" name="" disabled>
+    </div>
+
+    <div class="input-group mb-3 input-group-lg">
+        <span class="input-group-text" id="">Apellido</span>
+        <input type="text" class="form-control" id="apellido"  value="Gallo" name="" disabled>
+    </div>
+
+    <div class="input-group mb-3 input-group-lg">
+        <span class="input-group-text" id="">DNI</span>
+        <input type="number" class="form-control" id="dni"  value="31143647" name="" disabled>
+    </div>
+
+    <div class="input-group mb-3 input-group-lg">
+        <span class="input-group-text" id="">Fecha nacimiento</span>
+        <input type="date" class="form-control" id="dni"  value="1984-09-08" name="" disabled>
+    </div>
+
+    <div class="input-group mb-3 input-group-lg">
+        <span class="input-group-text" id="">Email</span>
+        <input type="email" class="form-control" id="dni"  value="elrodri205@gmail.com" name="" disabled>
+    </div>
+
+    <div class="input-group mb-3 input-group-lg">
+        <span class="input-group-text" id=""><i class="bi bi-github"></i></span>
+        <input type="link" class="form-control" id="dni"  value="https://github.com/elrodri3165/" name="" disabled>
+    </div>
+
+    <a href="https://github.com/elrodri3165/"><i class="bi bi-github"></i> GitHub</a>
+</div>
