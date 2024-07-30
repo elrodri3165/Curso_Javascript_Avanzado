@@ -9,11 +9,11 @@ class Productos{
 
 
     ImprimeDatos(){
-        let contenido = `<p>Código: ${this.codigo} </p>`;
-        contenido += `<p>Categoria: ${this.categoria} </p>`;
-        contenido += `<p>Nombre: ${this.nombre} </p>`;
-        contenido += `<p>Precio: ${this.precio} </p>`;
-        contenido += `<br></br>`;
+        let contenido = `<p class="border bg-success">Código: ${this.codigo} </p>`;
+        contenido += `<p class="border bg-success">Categoria: ${this.categoria} </p>`;
+        contenido += `<p class="border bg-success">Nombre: ${this.nombre} </p>`;
+        contenido += `<p class="border bg-success">Precio: ${this.precio} </p>`;
+        contenido += `<br class="border bg-success"></br>`;
 
         document.getElementById('infoProducto').innerHTML = contenido;
     }
