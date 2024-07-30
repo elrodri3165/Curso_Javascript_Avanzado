@@ -13,9 +13,9 @@ class Productos{
         contenido += `<p>Categoria: ${this.categoria} </p>`;
         contenido += `<p>Nombre: ${this.nombre} </p>`;
         contenido += `<p>Precio: ${this.precio} </p>`;
+        contenido += `<br></br>`;
 
         document.getElementById('infoProducto').innerHTML = contenido;
-        console.log(contenido);
     }
 
 
