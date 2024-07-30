@@ -20,7 +20,3 @@ class Productos{
 
 
 }
-
-
-var producto = new Productos(1, 'Muebles', 'Escritorio', 250000);
-producto.ImprimeDatos();
