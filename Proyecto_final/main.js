@@ -31,6 +31,8 @@ class Compra{
                 if (xhr.status === 200) {
                     document.getElementById('estado').innerHTML = 'La solicitud está completada.';
                     document.getElementById('contenido').innerHTML = xhr.responseText;
+                    var btn = document.getElementById('btn-finalizar');
+                    btn.removeAttribute('disabled');
                     myModal.hide();
                 } else {
                     console.error('Hubo un problema con la solicitud.');
@@ -45,9 +47,14 @@ class Compra{
 
 }
 
+var compra;
 
 let Comprar = (id) => {
     //alert(id);
-    var compra = new Compra(id);
+    compra = new Compra(id);
     compra.RevisarStock();
+}
+
+let FinalizarCompra = () => {
+    compra.FinalizarCompra();
 }
